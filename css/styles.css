@@ -3,14 +3,19 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
-.button-list {
-}
 .button-list-item {
   font-size: 16px;
   line-height: 24;
   font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: #f4f4fd;
   color: #4d5ae5;
   cursor: pointer;
+}
+.button-list-item:hover .button-list-item:focus {
+  color: #ffffff;
+  background-color: #404bbf;
 }
 .portfolio-list-item {
   font-weight: 500;
