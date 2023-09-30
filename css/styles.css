@@ -1,5 +1,5 @@
 body {
-  font-family: Roboto, sans-serif, Raleway, sans-serif;
+  font-family: Roboto, sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
@@ -90,8 +90,14 @@ body {
   color: #ffffff;
   cursor: pointer;
 }
-.main-banner-button:hover .main-banner-button:focus {
+.main-banner-button:hover {
   background-color: #404bbf;
+}
+.main-banner-button:focus {
+  background-color: #404bbf;
+}
+.main-list-element {
+  background-color: #ffffff;
 }
 .main-list-item {
   font-weight: 500;
